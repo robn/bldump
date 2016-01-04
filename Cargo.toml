@@ -1,0 +1,17 @@
+[package]
+name = "bldump"
+version = "0.1.0"
+authors = ["Robert Norris <rob@eatenbyagrue.org>"]
+
+[dependencies]
+byteorder = "0.4.2"
+sha1 = "0.1.1"
+crc = "1.2.0"
+bitbit = { path = "/home/robn/code/rust/bitbit-rs" }
+#bitbit = "0.1.1"
+#protobuf = { path = "/home/robn/code/rust/rust-protobuf" }
+protobuf = "1.0.10"
+minilzo = { git = "https://github.com/badboy/minilzo-rs.git" }
+hex = "0.1.0"
+bl2resources = { path = "/home/robn/code/rust/bl2resources" }
+itertools = "*"
